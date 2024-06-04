@@ -60,7 +60,7 @@ nav a {
 main {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 6rem 2rem 3rem; 
+  padding: 6rem 2rem 3rem;
 }
 
 section {
@@ -216,10 +216,15 @@ h3 {
   width: 20px;
   height: auto;
 }
+.lit {
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+}
 
-.download-btn icon-img {
-  width: 0.1rem !important;
-  background: none !important;
+#icon-img {
+  display: flex;
+  flex-direction: column;
 }
 /* Footer styles */
 footer {
