@@ -217,9 +217,9 @@ h3 {
   height: auto;
 }
 .lit {
-  gap: 1rem;
-  display: flex;
-  flex-direction: row;
+  gap: 1rem !important;
+  display: flex !important;
+  flex-direction: row !important;
 }
 
 #icon-img {
